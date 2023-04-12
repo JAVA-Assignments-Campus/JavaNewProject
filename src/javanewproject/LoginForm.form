@@ -87,9 +87,9 @@
                       <Component id="jPasswordField_pass" max="32767" attributes="0"/>
                       <Component id="jLabel_pass" pref="54" max="32767" attributes="0"/>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="jCheckBox_pass" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
                   <Component id="jButton_login" min="-2" pref="76" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="151" max="-2" attributes="0"/>
               </Group>

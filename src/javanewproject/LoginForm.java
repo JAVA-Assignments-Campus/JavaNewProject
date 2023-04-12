@@ -18,9 +18,8 @@ public class LoginForm extends javax.swing.JFrame {
 
         this.setLocationRelativeTo(null);
         
-        jLabel1_logo.setIcon(new javax.swing.ImageIcon("/images/edu.jpg"));
-        jLabel_user.setIcon(new javax.swing.ImageIcon("/images/user50.jpg"));
-        jLabel_pass.setIcon(new javax.swing.ImageIcon("/images/pass50.png"));
+        jLabel_user.setIcon(new javax.swing.ImageIcon("/images/pass50.png"));
+
     }
 
     /**
@@ -123,9 +122,9 @@ public class LoginForm extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPasswordField_pass)
                     .addComponent(jLabel_pass, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(18, 18, 18)
                 .addComponent(jCheckBox_pass)
-                .addGap(53, 53, 53)
+                .addGap(41, 41, 41)
                 .addComponent(jButton_login, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(151, 151, 151))
         );
