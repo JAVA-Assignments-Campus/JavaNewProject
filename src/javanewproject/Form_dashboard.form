@@ -308,7 +308,7 @@
                           <Color blue="ff" green="ff" red="ff" type="rgb"/>
                         </Property>
                         <Property name="horizontalAlignment" type="int" value="0"/>
-                        <Property name="text" type="java.lang.String" value="Student"/>
+                        <Property name="text" type="java.lang.String" value="Students"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel_std_logo">
@@ -425,7 +425,7 @@
                           <Color blue="ff" green="ff" red="ff" type="rgb"/>
                         </Property>
                         <Property name="horizontalAlignment" type="int" value="0"/>
-                        <Property name="text" type="java.lang.String" value="Student"/>
+                        <Property name="text" type="java.lang.String" value="Tea"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel_tech_logo">

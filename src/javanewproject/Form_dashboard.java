@@ -141,7 +141,7 @@ public class Form_dashboard extends javax.swing.JFrame {
         jLabel9.setFont(new java.awt.Font("Segoe UI Emoji", 0, 24)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel9.setText("Student");
+        jLabel9.setText("Students");
 
         jLabel_std_logo.setFont(new java.awt.Font("Segoe UI Emoji", 0, 24)); // NOI18N
         jLabel_std_logo.setForeground(new java.awt.Color(255, 255, 255));
@@ -209,7 +209,7 @@ public class Form_dashboard extends javax.swing.JFrame {
         jLabel11.setFont(new java.awt.Font("Segoe UI Emoji", 0, 24)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel11.setText("Student");
+        jLabel11.setText("Tea");
 
         jLabel_tech_logo.setFont(new java.awt.Font("Segoe UI Emoji", 0, 24)); // NOI18N
         jLabel_tech_logo.setForeground(new java.awt.Color(255, 255, 255));
