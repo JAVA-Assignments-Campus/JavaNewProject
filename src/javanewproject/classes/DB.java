@@ -11,4 +11,11 @@ package javanewproject.classes;
 public class DB {
     private static String serverName = "localhost";
     private static String userName = "root";
+    private static String dbName = "java_project";
+    private static int portNumber = 3306;
+    private static String pass = "";
+    
+    //make connection
+    
+    
 }
