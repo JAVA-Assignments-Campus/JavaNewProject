@@ -18,7 +18,8 @@ public class LoginForm extends javax.swing.JFrame {
 
         this.setLocationRelativeTo(null);
         
-        jLabel_user.setIcon(new javax.swing.ImageIcon("/images/pass50.png"));
+        jLabel_user.setIcon(new javax.swing.ImageIcon("/images/user50.png"));
+        jLabel_pass.setIcon(new javax.swing.ImageIcon("/images/pass50.png"));
 
     }
 
@@ -53,6 +54,11 @@ public class LoginForm extends javax.swing.JFrame {
         jLabel_close.setFont(new java.awt.Font("Segoe UI Historic", 0, 24)); // NOI18N
         jLabel_close.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel_close.setText("x");
+        jLabel_close.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel_closeMouseClicked(evt);
+            }
+        });
 
         jLabel_user.setBackground(new java.awt.Color(255, 102, 0));
         jLabel_user.setForeground(new java.awt.Color(255, 255, 255));
@@ -86,7 +92,7 @@ public class LoginForm extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(jLabel1_logo, javax.swing.GroupLayout.PREFERRED_SIZE, 536, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(46, 46, 46)
+                .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
@@ -105,7 +111,7 @@ public class LoginForm extends javax.swing.JFrame {
                                     .addComponent(jCheckBox_pass)
                                     .addComponent(jPasswordField_pass)))
                             .addComponent(jButton_login, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGap(0, 88, Short.MAX_VALUE))))
+                        .addGap(0, 116, Short.MAX_VALUE))))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -146,6 +152,11 @@ public class LoginForm extends javax.swing.JFrame {
     private void jButton_loginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_loginActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton_loginActionPerformed
+
+    private void jLabel_closeMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel_closeMouseClicked
+        // TODO add your handling code here:
+        System.exit(0);
+    }//GEN-LAST:event_jLabel_closeMouseClicked
 
     /**
      * @param args the command line arguments
