@@ -182,6 +182,7 @@ public class LoginForm extends javax.swing.JFrame {
         if(jTextField_user.getText().trim().toLowerCase().equals("username"))
         {
             jTextField_user.setText("");
+            jTextField_user.setForeground(Color.black);
         }
     }//GEN-LAST:event_jTextField_userFocusGained
 
