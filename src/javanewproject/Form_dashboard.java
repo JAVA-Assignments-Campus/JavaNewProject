@@ -58,6 +58,8 @@ public class Form_dashboard extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
 
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+
         jPanel3.setBackground(new java.awt.Color(51, 102, 255));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI Historic", 0, 24)); // NOI18N
@@ -176,7 +178,7 @@ public class Form_dashboard extends javax.swing.JFrame {
                     .addContainerGap()))
         );
 
-        jLabel_std_count.setFont(new java.awt.Font("Segoe UI Emoji", 0, 24)); // NOI18N
+        jLabel_std_count.setFont(new java.awt.Font("Segoe UI Emoji", 0, 36)); // NOI18N
         jLabel_std_count.setForeground(new java.awt.Color(255, 255, 255));
         jLabel_std_count.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel_std_count.setText("100");
@@ -196,7 +198,7 @@ public class Form_dashboard extends javax.swing.JFrame {
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel_std_count, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabel_std_count, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -244,7 +246,7 @@ public class Form_dashboard extends javax.swing.JFrame {
                     .addContainerGap()))
         );
 
-        jLabel_tech_count.setFont(new java.awt.Font("Segoe UI Emoji", 0, 24)); // NOI18N
+        jLabel_tech_count.setFont(new java.awt.Font("Segoe UI Emoji", 0, 36)); // NOI18N
         jLabel_tech_count.setForeground(new java.awt.Color(255, 255, 255));
         jLabel_tech_count.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel_tech_count.setText("100");
