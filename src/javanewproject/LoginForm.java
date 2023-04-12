@@ -208,6 +208,13 @@ public class LoginForm extends javax.swing.JFrame {
 
     private void jPasswordField_passFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jPasswordField_passFocusLost
         // TODO add your handling code here:
+        String password = String.valueOf(jPasswordField_pass.getPassword());
+        if(password.trim().toLowerCase().equals("password") || 
+           password.trim().toLowerCase().equals(""))
+        {
+            jPasswordField_pass.setText("Password");
+            jPasswordField_pass.setForeground(new Color(153,153,153));
+        }
     }//GEN-LAST:event_jPasswordField_passFocusLost
 
     /**
