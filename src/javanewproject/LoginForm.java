@@ -83,7 +83,6 @@ public class LoginForm extends javax.swing.JFrame {
         jLabel_pass.setOpaque(true);
 
         jPasswordField_pass.setFont(new java.awt.Font("Segoe UI Historic", 0, 24)); // NOI18N
-        jPasswordField_pass.setText("jPasswordField1");
         jPasswordField_pass.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
                 jPasswordField_passFocusGained(evt);
@@ -94,6 +93,11 @@ public class LoginForm extends javax.swing.JFrame {
         });
 
         jCheckBox_pass.setText("Show Password");
+        jCheckBox_pass.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox_passActionPerformed(evt);
+            }
+        });
 
         jButton_login.setBackground(new java.awt.Color(0, 153, 0));
         jButton_login.setFont(new java.awt.Font("Segoe UI Historic", 0, 36)); // NOI18N
@@ -216,6 +220,18 @@ public class LoginForm extends javax.swing.JFrame {
             jPasswordField_pass.setForeground(new Color(153,153,153));
         }
     }//GEN-LAST:event_jPasswordField_passFocusLost
+
+    private void jCheckBox_passActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox_passActionPerformed
+        // TODO add your handling code here:
+        if(jCheckBox_pass.isSelected())
+        {
+            jPasswordField_pass.setEchoChar((char)0);
+        }
+        else
+        {
+            jPasswordField_pass.setEchoChar('*');
+        }
+    }//GEN-LAST:event_jCheckBox_passActionPerformed
 
     /**
      * @param args the command line arguments
