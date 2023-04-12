@@ -4,6 +4,11 @@
  */
 package javanewproject.classes;
 
+
+import java.sql.Connection;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  *
  * @author Jehan
@@ -17,5 +22,15 @@ public class DB {
     
     //make connection
     
-    
+    public static Connection getConnection()
+    {
+        try {
+            Connection connection = null;
+            
+            Class.forName("");
+            connection = DriverManager.getConnection(pass);
+        } catch (ClassNotFoundException ex) {
+            Logger.getLogger(DB.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
 }
