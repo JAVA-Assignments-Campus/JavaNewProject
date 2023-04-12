@@ -9,5 +9,6 @@ package javanewproject.classes;
  * @author Jehan
  */
 public class DB {
-    
+    private static String serverName = "localhost";
+    private static String userName = "root";
 }
