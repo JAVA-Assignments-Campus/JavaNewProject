@@ -8,6 +8,7 @@ package javanewproject.classes;
 import java.sql.Connection;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.sql.DriverManager;  
 
 /**
  *
@@ -27,7 +28,7 @@ public class DB {
         try {
             Connection connection = null;
             
-            Class.forName("");
+            Class.forName("com.mysql.jdbc.Driver");
             connection = DriverManager.getConnection(pass);
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(DB.class.getName()).log(Level.SEVERE, null, ex);
