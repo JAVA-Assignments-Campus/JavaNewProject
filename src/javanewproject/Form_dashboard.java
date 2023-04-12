@@ -17,8 +17,8 @@ public class Form_dashboard extends javax.swing.JFrame {
         initComponents();
         this.setLocationRelativeTo(null);
         
-        jLabel_std_logo.setIcon(new javax.swing.ImageIcon("/images/user50.png"));
-        jLabel_tech_logo.setIcon(new javax.swing.ImageIcon("/images/user50.png"));
+        jLabel_std_logo.setIcon(new javax.swing.ImageIcon("/images/std.png"));
+        jLabel_tech_logo.setIcon(new javax.swing.ImageIcon("/images/teacher.png"));
         
         
         
