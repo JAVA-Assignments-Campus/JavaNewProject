@@ -44,6 +44,7 @@ public class LoginForm extends javax.swing.JFrame {
         jButton_login = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
 
         jLabel1_logo.setBackground(new java.awt.Color(0, 153, 255));
         jLabel1_logo.setOpaque(true);
