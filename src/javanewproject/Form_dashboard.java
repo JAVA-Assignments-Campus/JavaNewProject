@@ -209,7 +209,7 @@ public class Form_dashboard extends javax.swing.JFrame {
         jLabel11.setFont(new java.awt.Font("Segoe UI Emoji", 0, 24)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel11.setText("Tea");
+        jLabel11.setText("lecturers");
 
         jLabel_tech_logo.setFont(new java.awt.Font("Segoe UI Emoji", 0, 24)); // NOI18N
         jLabel_tech_logo.setForeground(new java.awt.Color(255, 255, 255));
