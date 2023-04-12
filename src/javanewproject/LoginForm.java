@@ -67,6 +67,14 @@ public class LoginForm extends javax.swing.JFrame {
 
         jTextField_user.setFont(new java.awt.Font("Segoe UI Historic", 0, 24)); // NOI18N
         jTextField_user.setText("Username");
+        jTextField_user.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusGained(java.awt.event.FocusEvent evt) {
+                jTextField_userFocusGained(evt);
+            }
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                jTextField_userFocusLost(evt);
+            }
+        });
 
         jLabel_pass.setBackground(new java.awt.Color(255, 102, 0));
         jLabel_pass.setForeground(new java.awt.Color(255, 255, 255));
@@ -74,6 +82,14 @@ public class LoginForm extends javax.swing.JFrame {
 
         jPasswordField_pass.setFont(new java.awt.Font("Segoe UI Historic", 0, 24)); // NOI18N
         jPasswordField_pass.setText("jPasswordField1");
+        jPasswordField_pass.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusGained(java.awt.event.FocusEvent evt) {
+                jPasswordField_passFocusGained(evt);
+            }
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                jPasswordField_passFocusLost(evt);
+            }
+        });
 
         jCheckBox_pass.setText("Show Password");
 
@@ -158,6 +174,26 @@ public class LoginForm extends javax.swing.JFrame {
         // TODO add your handling code here:
         System.exit(0);
     }//GEN-LAST:event_jLabel_closeMouseClicked
+
+    private void jTextField_userFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField_userFocusGained
+        // TODO add your handling code here:
+        if(jTextField_user.getText().trim().toLowerCase().equals("username"))
+        {
+            jTextField_user.setText("");
+        }
+    }//GEN-LAST:event_jTextField_userFocusGained
+
+    private void jTextField_userFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTextField_userFocusLost
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField_userFocusLost
+
+    private void jPasswordField_passFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jPasswordField_passFocusGained
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jPasswordField_passFocusGained
+
+    private void jPasswordField_passFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jPasswordField_passFocusLost
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jPasswordField_passFocusLost
 
     /**
      * @param args the command line arguments
